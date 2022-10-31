@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "crud-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -62,7 +62,7 @@
   "jest": {
     "preset": "jest-preset-angular",
     "setupFilesAfterEnv": [
-      "<rootDir>/frontend/src/setup.jest.ts"
+      "<rootDir>/src/setup.jest.ts"
     ],
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/",
