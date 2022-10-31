@@ -16,11 +16,13 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.2.0",
+    "@angular/cdk": "^14.2.6",
     "@angular/common": "^14.2.0",
     "@angular/compiler": "^14.2.0",
     "@angular/core": "^14.2.0",
     "@angular/forms": "^14.2.0",
     "@angular/localize": "^14.2.0",
+    "@angular/material": "^14.2.6",
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
@@ -48,6 +50,8 @@
     "eslint": "^8.23.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^28.1.3",
+    "jest-preset-angular": "^12.2.2",
     "markdownlint": "^0.26.2",
     "prettier": "^2.7.1",
     "prettier-eslint": "^15.0.1",
@@ -55,8 +59,6 @@
     "stylelint-config-standard": "^29.0.0",
     "stylelint-config-standard-scss": "^6.0.0",
     "tslib": "^2.4.0",
-    "jest": "^28.1.3",
-    "jest-preset-angular": "^12.2.2",
     "typescript": "~4.7.2"
   },
   "jest": {
