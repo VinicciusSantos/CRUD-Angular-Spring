@@ -38,6 +38,5 @@ jobs:
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
-        run: cd frontend
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
