@@ -5,7 +5,7 @@ on:
     branches: ['main']
 
 jobs:
-  test-prettier-lint:
+  frontend-tests-and-lint:
     runs-on: ubuntu-latest
 
     steps:
@@ -35,8 +35,3 @@ jobs:
         run: |
           cd frontend
           yarn build
-
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
