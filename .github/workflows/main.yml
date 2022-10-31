@@ -17,22 +17,27 @@ jobs:
           node-version: 18.12.0
 
       - name: Install packages
-        run: cd frontend
-        run: yarn
+        run: |
+          cd frontend
+          yarn
 
       - name: Run Tests
-        run: cd frontend
-        run: yarn test
+        run: |
+          cd frontend
+          yarn test
 
       - name: Run Lint
-        run: cd frontend
-        run: yarn lint
+        run: |
+          cd frontend
+          yarn lint
 
       - name: Run Build
-        run: cd frontend
-        run: yarn build
+        run: |
+          cd frontend
+          yarn build
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
+        run: cd frontend
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
