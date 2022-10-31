@@ -11,24 +11,25 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: navigate to frontend dir
-        run: cd frontend
-
       - name: Use Node.js 18.12.0
         uses: actions/setup-node@v3
         with:
           node-version: 18.12.0
 
       - name: Install packages
+        run: cd frontend
         run: yarn
 
       - name: Run Tests
+        run: cd frontend
         run: yarn test
 
       - name: Run Lint
+        run: cd frontend
         run: yarn lint
 
       - name: Run Build
+        run: cd frontend
         run: yarn build
 
       - name: Coveralls
