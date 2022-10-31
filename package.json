@@ -62,7 +62,7 @@
   "jest": {
     "preset": "jest-preset-angular",
     "setupFilesAfterEnv": [
-      "<rootDir>/src/setup.jest.ts"
+      "<rootDir>/frontend/src/setup.jest.ts"
     ],
     "testPathIgnorePatterns": [
       "<rootDir>/node_modules/",
