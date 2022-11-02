@@ -1,4 +1,4 @@
-# Angular Template
+# CRUD com Angular e Spring
 
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
@@ -7,7 +7,7 @@
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 
-Template Angular configurado com Jest, ESLint, StyleLint, Prettier e Github Actions
+[![Frontend Automated Tests and Linting](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml/badge.svg)](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml)
 
 ## 💈 Commit Pattern
 
