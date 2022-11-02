@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { SharedModule } from '../shared/shared.module';
 
 import { AppMaterialModule } from './../shared/app-material.module';
 import { CoursesRoutingModule } from './courses-routing.module';
@@ -8,7 +9,12 @@ import { CoursesService } from './services/courses.service';
 
 @NgModule({
   declarations: [CoursesComponent],
-  imports: [CommonModule, CoursesRoutingModule, AppMaterialModule],
+  imports: [
+    CommonModule,
+    CoursesRoutingModule,
+    AppMaterialModule,
+    SharedModule,
+  ],
   providers: [CoursesService],
 })
 export class CoursesModule {}
