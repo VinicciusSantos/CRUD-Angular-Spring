@@ -1,4 +1,5 @@
 import { registerLocaleData } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import en from '@angular/common/locales/en';
 import { NgModule } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -17,6 +18,7 @@ registerLocaleData(en);
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
