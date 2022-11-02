@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { delay, Observable } from 'rxjs';
 import { Course } from '../models/course';
 import { tap, take } from 'rxjs';
 
@@ -15,6 +15,7 @@ export class CoursesService {
   list(): Observable<Course[]> {
     return this._httpClient.get<Course[]>(this.API).pipe(
       take(1),
+      delay(5000),
       tap(res => console.log(res))
     );
   }
