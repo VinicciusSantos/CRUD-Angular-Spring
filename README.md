@@ -6,6 +6,8 @@
 ![SCSS](https://img.shields.io/badge/SCSS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 
 [![Frontend Automated Tests and Linting](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml/badge.svg)](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml)
 
