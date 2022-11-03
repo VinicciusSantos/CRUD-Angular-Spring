@@ -6,9 +6,10 @@ import { AppMaterialModule } from './../shared/app-material.module';
 import { CoursesRoutingModule } from './courses-routing.module';
 import { CoursesComponent } from './courses/courses.component';
 import { CoursesService } from './services/courses.service';
+import { CourseFormComponent } from './course-form/course-form.component';
 
 @NgModule({
-  declarations: [CoursesComponent],
+  declarations: [CoursesComponent, CourseFormComponent],
   imports: [
     CommonModule,
     CoursesRoutingModule,
