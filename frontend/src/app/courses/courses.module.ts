@@ -7,6 +7,7 @@ import { CoursesRoutingModule } from './courses-routing.module';
 import { CoursesComponent } from './courses/courses.component';
 import { CoursesService } from './services/courses.service';
 import { CourseFormComponent } from './course-form/course-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [CoursesComponent, CourseFormComponent],
@@ -15,6 +16,8 @@ import { CourseFormComponent } from './course-form/course-form.component';
     CoursesRoutingModule,
     AppMaterialModule,
     SharedModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [CoursesService],
 })
