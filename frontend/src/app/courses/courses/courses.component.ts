@@ -13,7 +13,6 @@ import { Router } from '@angular/router';
 })
 export class CoursesComponent {
   courses$: Observable<Course[]>;
-  displayedColumns: string[] = ['_id', 'name', 'category', 'actions'];
 
   constructor(
     private _coursesService: CoursesService,
