@@ -10,6 +10,7 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 
 [![Frontend Automated Tests and Linting](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml/badge.svg)](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml)
+[![Java CI with Maven](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/maven.yml/badge.svg)](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/maven.yml)
 
 ## 💈 Commit Pattern
 
