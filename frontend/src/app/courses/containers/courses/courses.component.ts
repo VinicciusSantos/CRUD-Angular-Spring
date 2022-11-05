@@ -1,7 +1,7 @@
 import { catchError, Observable, of } from 'rxjs';
-import { CoursesService } from './../services/courses.service';
+import { CoursesService } from '../../services/courses.service';
 import { Component, OnInit } from '@angular/core';
-import { Course } from '../models/course';
+import { Course } from '../../models/course';
 import { MatDialog } from '@angular/material/dialog';
 import { ErrorDialogComponent } from 'src/app/shared/components/error-dialog/error-dialog.component';
 import { Router } from '@angular/router';
@@ -34,7 +34,6 @@ export class CoursesComponent {
   }
 
   onAdd() {
-    console.log('onAdd');
     this._router.navigate(['courses/new']);
   }
 }
