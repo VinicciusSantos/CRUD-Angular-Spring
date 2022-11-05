@@ -11,9 +11,11 @@
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 
 [![Frontend Automated Tests and Linting](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml/badge.svg)](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml)
 [![Java CI with Maven](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/maven.yml/badge.svg)](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/maven.yml)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/666f0749a5ad4d21b8ff6b3fd145b963)](https://www.codacy.com/gh/VinicciusSantos/CRUD-Angular-Spring/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=VinicciusSantos/CRUD-Angular-Spring&amp;utm_campaign=Badge_Grade)
 
 Repositório criado com base nos estudos do ![curso de Angular com Spring](https://loiane.training/curso/crud-angular-spring) da professora [Loiane Groner](https://github.com/loiane)
 
