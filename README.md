@@ -12,6 +12,7 @@
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7608e650098a46658bfdc5f073632759)](https://app.codacy.com/gh/VinicciusSantos/CRUD-Angular-Spring?utm_source=github.com&utm_medium=referral&utm_content=VinicciusSantos/CRUD-Angular-Spring&utm_campaign=Badge_Grade_Settings)
 [![Frontend Automated Tests and Linting](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml/badge.svg)](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/main.yml)
 [![Java CI with Maven](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/maven.yml/badge.svg)](https://github.com/VinicciusSantos/CRUD-Angular-Spring/actions/workflows/maven.yml)
 
