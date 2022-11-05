@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { CoursesModule } from '../courses.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { CoursesModule } from '../courses.module';
 import { CourseFormComponent } from './course-form.component';
 
 describe('CourseFormComponent', () => {
@@ -10,7 +11,7 @@ describe('CourseFormComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [CourseFormComponent],
-      imports: [CoursesModule],
+      imports: [CoursesModule, BrowserAnimationsModule],
     }).compileComponents();
 
     fixture = TestBed.createComponent(CourseFormComponent);

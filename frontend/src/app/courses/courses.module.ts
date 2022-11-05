@@ -1,4 +1,3 @@
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { SharedModule } from '../shared/shared.module';
@@ -14,7 +13,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   declarations: [CoursesComponent, CourseFormComponent],
   imports: [
     CommonModule,
-    BrowserAnimationsModule,
     CoursesRoutingModule,
     AppMaterialModule,
     SharedModule,

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { delay, Observable, take, tap } from 'rxjs';
+import { delay, first, Observable, take, tap } from 'rxjs';
 
 import { Course } from '../models/course';
 
@@ -18,5 +18,10 @@ export class CoursesService {
       delay(500),
       tap(res => console.log(res))
     );
+  }
+
+  save(record: Course) {
+    console.log(record);
+    return this._httpClient.post<Course>(this.API, record).pipe(first());
   }
 }
