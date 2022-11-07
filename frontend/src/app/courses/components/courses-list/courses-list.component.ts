@@ -8,10 +8,15 @@ import { EventEmitter, Component, Input, OnInit, Output } from '@angular/core';
 export class CoursesListComponent {
   @Input() courses: Course[] = [];
   @Output() add = new EventEmitter(false);
+  @Output() edit = new EventEmitter(false);
 
   readonly displayedColumns: string[] = ['_id', 'name', 'category', 'actions'];
 
   onAdd() {
     this.add.emit(true);
+  }
+
+  onEdit(course: Course) {
+    this.edit.emit(course);
   }
 }

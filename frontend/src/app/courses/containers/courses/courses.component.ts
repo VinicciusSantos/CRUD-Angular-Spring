@@ -36,4 +36,8 @@ export class CoursesComponent {
   onAdd() {
     this._router.navigate(['courses/new']);
   }
+
+  onEdit(course: Course) {
+    this._router.navigate(['courses/edit', course._id]);
+  }
 }
