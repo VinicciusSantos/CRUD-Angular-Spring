@@ -1,10 +1,11 @@
-import { catchError, Observable, of } from 'rxjs';
-import { CoursesService } from '../../services/courses.service';
-import { Component, OnInit } from '@angular/core';
-import { Course } from '../../models/course';
+import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
-import { ErrorDialogComponent } from 'src/app/shared/components/error-dialog/error-dialog.component';
 import { Router } from '@angular/router';
+import { catchError, Observable, of } from 'rxjs';
+import { ErrorDialogComponent } from 'src/app/shared/components/error-dialog/error-dialog.component';
+
+import { Course } from '../../models/course';
+import { CoursesService } from '../../services/courses.service';
 
 @Component({
   selector: 'app-courses',

@@ -1,7 +1,9 @@
 import { Location } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { NonNullableFormBuilder } from '@angular/forms';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { ActivatedRoute } from '@angular/router';
+import { Course } from '../../models/course';
 
 import { CoursesService } from '../../services/courses.service';
 
@@ -10,8 +12,9 @@ import { CoursesService } from '../../services/courses.service';
   templateUrl: './course-form.component.html',
   styleUrls: ['./course-form.component.scss'],
 })
-export class CourseFormComponent {
+export class CourseFormComponent implements OnInit {
   form = this._formBuilder.group({
+    _id: [''],
     name: [''],
     category: [''],
   });
@@ -20,7 +23,8 @@ export class CourseFormComponent {
     private _formBuilder: NonNullableFormBuilder,
     private _coursesService: CoursesService,
     private _snackBar: MatSnackBar,
-    private _location: Location
+    private _location: Location,
+    private _route: ActivatedRoute
   ) {}
 
   onSubmit() {
@@ -41,5 +45,10 @@ export class CourseFormComponent {
 
   onCancel() {
     this._location.back();
+  }
+
+  ngOnInit(): void {
+    const course: Course = this._route.snapshot.data['course'];
+    this.form.setValue(course);
   }
 }
